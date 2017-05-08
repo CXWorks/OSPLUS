@@ -13,4 +13,9 @@ typedef unsigned int m_pid_t;
 
 typedef long long unsigned int count_t;
 
+
+#define MAP_START (2*1024*1024)
+#define NUM_OF_PAGE (40704)
+#define MAP_SIZE (8*636)
+
 #endif //MXM_TYPE_H
